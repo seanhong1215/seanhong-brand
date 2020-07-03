@@ -1,0 +1,146 @@
+*{
+  /*   border: solid 1px; */
+    font-family: 微軟正黑體;
+    position: relative;
+  }
+  
+  html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body{
+    background-color: #f6f6f6;
+    border-top: solid 30px #014D81;
+    border-bottom: solid 30px #014D81;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  hr{
+    width: 800px;
+    opacity: 0.3;
+  }
+  
+  .namecard{
+    width: 400px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: 50px;
+    background-color: #fff;
+    text-align: justify;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    border-radius: 6px;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+    overflow: hidden;
+    position: relative;
+    transform-origin: 50% 50%;
+  }
+  
+  .namecard:hover{
+   transform: translateY(-5px) translateX(-5px);
+   box-shadow: 10px 10px 30px rgba(50, 50, 50, 0.3);
+  }
+  
+  .namecard:hover .circle1 {
+    transform-origin: 50% 50%;
+    transform: scale(1.2);
+  }
+  .namecard:hover .circle2 {
+         transform-origin: 50% 50%;
+            transform: scale(1.3);
+  }
+  .namecard:hover .circle3 {
+    
+            transform-origin: 50% 50%;
+   
+            transform: scale(1.3);
+  }
+  .namecard:hover .circle4 {
+    
+            transform-origin: 50% 50%;
+    
+            transform: scale(1.3);
+  }
+  
+  .namecard h2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .namecard h2 span{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  
+  .namecard h5{
+    color: #3FA1E8;
+    font-weight: 300;
+    
+  }
+  
+  .namecard p{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  
+  .circle{
+    width: 100px; height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    transition-duration: 1s;
+  }
+  
+  .circle1{
+    right: 100px;
+    background-color: #FD9735;
+    transform-delay: 0.4s;
+  }
+  
+  .circle2{
+    width: 220px; height: 220px;
+    right: -110px; top: -110px;
+  /*   border: solid 2px #FD9735; */
+    background-color: #3FA1E8;
+    transform-delay: 0.5s;
+  }
+  
+  .circle3{
+    width: 100px; height: 100px;
+    right: -60px; top: 70px;
+    background-color: #FBC205;
+    transform-delay: 0.6s;
+  }
+  
+  .circle4{
+    width: 80px; height: 80px;
+    left: -50px; 
+    background-color: #FD9735;
+  }
+  
+  .page_title{
+  /*   border: solid 1px; */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .mark{
+    font-size: 300px;
+    position: absolute;
+    bottom: 100px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.03);
+  
+  }
